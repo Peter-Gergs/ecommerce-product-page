@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | E-commerce product page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <div class="menu">
+            <img src="images/icon-menu.svg" alt="menu" />
+          </div>
+          <div class="logo">
+            <img src="images/logo.svg" alt="logo" />
+          </div>
+          <ul>
+            <img src="images/icon-close.svg" alt="close">
+            <li>Collections</li>
+            <li>Men</li>
+            <li>Women</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+        <div class="profile">
+          <div class="cart">
+            <img src="images/icon-cart.svg" alt="cart" />
+          </div>
+          <div class="avatar">
+            <img src="images/image-avatar.png" alt="avatar" />
+          </div>
+        </div>
+        <div class="cart-box">
+          <h3>cart</h3>
+          <div class="cart-list"></div>
+          <button>Checkout</button>
+        </div>
+      </header>
+    </div>
+    <div class="container">
+      <section>
+        <div class="gallery">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="images/image-product-1.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/image-product-2.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/image-product-3.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/image-product-4.jpg" alt="" />
+              </div>
+            </div>
+            <div class="swiper-button-prev">
+              <img src="images/icon-previous.svg" alt="prev" />
+            </div>
+            <div class="swiper-button-next">
+              <img src="images/icon-next.svg" alt="next" />
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="description">
+          <span> Sneaker Company </span>
+          <h2>Fall Limited Edition Sneakers</h2>
+          <p>
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they’ll withstand everything
+            the weather can offer.
+          </p>
+          <div class="price"><span> $125.00 </span><span> 50% </span></div>
+          <span> $250.00 </span>
+          <div class="buy">
+            <div class="counter">
+              <div class="minus">
+                <img src="images/icon-minus.svg" alt="minus" />
+              </div>
+              <div class="number">0</div>
+              <div class="plus">
+                <img src="images/icon-plus.svg" alt="plus" />
+              </div>
+            </div>
+            <button>
+              <img src="images/icon-cart.svg" alt="cart" /> Add to cart
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Peter Gergis</a>.
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
